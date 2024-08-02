@@ -12,5 +12,12 @@ body {
   align-items: center;
   box-sizing: content-box;
   height: 100vh;
-  background-color: rgba(59, 77, 97, 0.849);
+  background-color:#1a2b33
+}
+
+body h1{
+  font-size: 45px;
+  font-weight: 600 ;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.5);
 }
