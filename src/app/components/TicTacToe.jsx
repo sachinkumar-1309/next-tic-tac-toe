@@ -60,14 +60,14 @@ const TicTacToe = () => {
 		<div className="relative flex justify-center items-center ">
 			<div className="">
 				<div className={styles.gameBoard}>
-					<div className="absolute top-[-13%] left-2 w-24 h-24">
+					<div className="absolute sm:top-[-11%] top-[-15%] left-2 w-24 h-24">
 						<div className={styles.cross}></div>
 					</div>
-					<div className="absolute top-[-13%] left-16 w-24 h-24">
+					<div className="absolute sm:top-[-11%] top-[-15%] left-16 w-24 h-24">
 						<div className={styles.circle}></div>
 					</div>
-					<div className="absolute px-2 rounded top-[-13%] left-[38%] w-28 bg-[#1f3540] h-12 text-[#a8bec9] font-extrabold text-3xl">
-						<div className="h-full w-full flex justify-center items-center text-[#a8bec9] ">{currentPlayer == "cross" ? "X" : "O"} <span className="ml-3 text-xl font-bold">TURN</span></div>
+					<div className="absolute sm:px-6 rounded-[8px] sm:top-[-13%] top-[-17%]  left-[38%] w-28 bg-[#1f3540] shadow-custom sm:h-12 h-11 text-[#a8bec9] font-extrabold sm:text-3xl text-2xl">
+						<div className="h-full w-full flex justify-center items-center text-[#a8bec9] ">{currentPlayer == "cross" ? "X" : "O"} <span className="ml-3 sm:text-xl text-lg  font-bold">TURN</span></div>
 					</div>
 
 					<button className={styles.resetButton} onClick={resetGame}>
