@@ -56,9 +56,9 @@
     top: -13%;
     right: 2%;
     @media (max-width:500px) {
-     top: -14.5%;
-     font-size: 25px;
-     padding: 3px 8px;
+		top: -14.5%;
+		font-size: 25px;
+		padding: 3px 8px;
     }
   }
 
